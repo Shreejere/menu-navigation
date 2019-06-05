@@ -17,7 +17,7 @@
     perspective: 600px;
   }
 
-  .cool > li > a {
+  .main > li > a {
     color: yellow;
     text-decoration: none;
     font-size: 20px;
@@ -36,7 +36,7 @@
     justify-content: center;
   }
 
-  .cool > li {
+  .main > li {
     position: relative;
     display: flex;
     justify-content: center;
@@ -126,7 +126,3 @@
     margin-bottom: 10px;
   }
 
-  /* Matches Twitter, TWITTER, twitter, tWitter, TWiTTeR... */
-  .button[href*=twitter] { background: #019FE9; }
-  .button[href*=facebook] { background: #3B5998; }
-  .button[href*=courses] { background: #ffc600; }
